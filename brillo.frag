@@ -14,10 +14,8 @@ vec3 colorA = vec3(0.630,0.463,0.046);
 vec3 colorB = vec3(0.920,0.799,0.135);
 
 float random (vec2 st) {
-    return fract((dot(st.xy,
-                         vec2(0.450,0.600)))*
-        43757.769);
-}
+    return fract((dot(st.xy, vec2(0.450,0.600)))* 43757.769);
+        }
 
 
 void main() {
