@@ -1,6 +1,3 @@
-// Author @patriciogv - 2015
-// Title: Mosaic
-
 
 precision mediump float;
 
